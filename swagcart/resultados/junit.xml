@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="lee todas las paginas de la tabla (57 empleados)" time="4.092115" classname="test" file="D:\UDEMY\VIBIUM-AUTOMATION\FILES\swagcart\tests\tabla.test.js"/>
+	<testcase name="cada empleado tiene todas las columnas" time="0.000540" classname="test" file="D:\UDEMY\VIBIUM-AUTOMATION\FILES\swagcart\tests\tabla.test.js"/>
+	<testcase name="no hay empleados repetidos" time="0.000197" classname="test" file="D:\UDEMY\VIBIUM-AUTOMATION\FILES\swagcart\tests\tabla.test.js"/>
+	<testcase name="al iniciar sesion la direccion tiene inventory.html" time="2.399982" classname="test" file="D:\UDEMY\VIBIUM-AUTOMATION\FILES\swagcart\tests\tienda.test.js"/>
+	<testcase name="el titulo dice Products" time="0.044413" classname="test" file="D:\UDEMY\VIBIUM-AUTOMATION\FILES\swagcart\tests\tienda.test.js"/>
+	<testcase name="hay 6 productos" time="0.009262" classname="test" file="D:\UDEMY\VIBIUM-AUTOMATION\FILES\swagcart\tests\tienda.test.js"/>
+	<testcase name="el contador del carrito sube al agregar productos" time="0.518537" classname="test" file="D:\UDEMY\VIBIUM-AUTOMATION\FILES\swagcart\tests\tienda.test.js"/>
+	<!-- tests 7 -->
+	<!-- suites 0 -->
+	<!-- pass 7 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 5040.9372 -->
+</testsuites>

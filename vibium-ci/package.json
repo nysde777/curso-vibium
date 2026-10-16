@@ -1,0 +1,13 @@
+{
+  "name": "vibium-ci",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "test:paralelo": "node --test --test-concurrency=3",
+    "test:ci": "node -e \"require('fs').mkdirSync('reportes', { recursive: true })\" && node --test --test-concurrency=3 --test-reporter=spec --test-reporter-destination=stdout --test-reporter=junit --test-reporter-destination=reportes/junit.xml --test-reporter=./reporte-html.js --test-reporter-destination=reportes/reporte.html"
+  },
+  "dependencies": {
+    "vibium": "^26.8.21"
+  }
+}

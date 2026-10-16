@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contador</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      background: #f5f5f5;
+    }
+    #contador {
+      font-size: 4rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+    #sumar {
+      font-size: 1.25rem;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 8px;
+      background: #2563eb;
+      color: #fff;
+      cursor: pointer;
+    }
+    #sumar:hover {
+      background: #1d4ed8;
+    }
+  </style>
+</head>
+<body>
+  <h1>Contador</h1>
+  <div id="contador" aria-live="polite">0</div>
+  <button id="sumar" type="button">Sumar uno</button>
+
+  <script>
+    const contador = document.getElementById('contador');
+    const boton = document.getElementById('sumar');
+    let valor = 0;
+
+    boton.addEventListener('click', () => {
+      valor += 2;
+      contador.textContent = valor;
+    });
+  </script>
+</body>
+</html>

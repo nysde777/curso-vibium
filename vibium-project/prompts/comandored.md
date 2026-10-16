@@ -1,0 +1,1 @@
+Get-NetTCPConnection -State Listen | Where-Object { (Get-Process -Id $_.OwningProcess -ErrorAction SilentlyContinue).ProcessName -match "chrome" } | Select-Object LocalAddress, LocalPort, @{n="Proceso";e={(Get-Process -Id $_.OwningProcess).ProcessName}}

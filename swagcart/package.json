@@ -1,0 +1,17 @@
+{
+  "name": "swagcart",
+  "version": "1.0.0",
+  "description": "Pruebas de la tienda SwagCart con Vibium",
+  "scripts": {
+    "test": "node -e \"require('fs').mkdirSync('resultados', { recursive: true })\" && node --test --test-reporter=spec --test-reporter=junit --test-reporter-destination=stdout --test-reporter-destination=resultados/junit.xml \"tests/*.test.js\"",
+    "scrapear": "node scrapear.js",
+    "grabar": "node grabar.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "vibium": "^26.8.21"
+  }
+}

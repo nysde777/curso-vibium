@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testcase name="arrastrar #draggable sobre #droppable muestra 'Dropped!'" time="3.914461" classname="test" file="D:\UDEMY\VIBIUM-AUTOMATION\FILES\vibium-ci\tests\arrastrar.test.js"/>
+	<testcase name="el formulario envía el texto 'Prueba CI'" time="4.276646" classname="test" file="D:\UDEMY\VIBIUM-AUTOMATION\FILES\vibium-ci\tests\formulario.test.js"/>
+	<testcase name="el título de la página es 'Web form'" time="3.573044" classname="test" file="D:\UDEMY\VIBIUM-AUTOMATION\FILES\vibium-ci\tests\titulo.test.js"/>
+	<!-- tests 3 -->
+	<!-- suites 0 -->
+	<!-- pass 3 -->
+	<!-- fail 0 -->
+	<!-- cancelled 0 -->
+	<!-- skipped 0 -->
+	<!-- todo 0 -->
+	<!-- duration_ms 4418.9593 -->
+</testsuites>
